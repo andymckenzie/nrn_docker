@@ -9,7 +9,7 @@ docker build -t nrn -f Dockerfile .
 Then run the docker image with something like:
 
 ```
-docker run -p 8888:8888 nrnu:latest
+docker run -p 8888:8888 nrn:latest
 ```
 
 Then you can edit NEURON models through Python/Jupyter at http://localhost:8888/ and visualize the electrophys output with matplotlib.
